@@ -1,0 +1,35 @@
+{
+  "categories":[
+    {"id": 1, "title_ru": "Одежда", "title_en": "Clothes"},
+    {"id": 2, "title_ru": "Электроника", "title_en": "Electronics"},
+    {"id": 3, "title_ru": "Косметика", "title_en": "Cosmetics"},
+    {"id": 3, "title_ru": "Аксессуары", "title_en": "Accesories"}
+  ],
+  "subcategories":[
+    {"id": 1, "title_ru": "Футболки", "title_en": "T-Shirts", "categoryId": 1},
+    {"id": 2, "title_ru": "Штаны", "title_en": "Pants", "categoryId": 1},
+    {"id": 3, "title_ru": "Свитера", "title_en": "Sweaters", "categoryId": 1},
+    {"id": 4, "title_ru": "Сотовые телефоны", "title_en": "Mobile phones", "categoryId": 2},
+    {"id": 5, "title_ru": "Планшеты", "title_en": "Tablets", "categoryId": 2},
+    {"id": 6, "title_ru": "Крема", "title_en": "Creams", "categoryId": 3},
+    {"id": 7, "title_ru": "Помады", "title_en": "Lipsticks", "categoryId": 3},
+    {"id": 8, "title_ru": "Шампуни", "title_en": "Shampoos", "categoryId": 3},
+    {"id": 9, "title_ru": "Гели для душа", "title_en": "Shower gels", "categoryId": 3},
+    {"id": 10, "title_ru": "Ремни", "title_en": "Belts", "categoryId": 4},
+    {"id": 11, "title_ru": "Портмоне", "title_en": "Wallets", "categoryId": 4},
+    {"id": 12, "title_ru": "Браслеты", "title_en": "Bracelets", "categoryId": 4}
+  ],
+  "products":[
+    {"id": 1, "title_ru": "Thrasher", "title_en":"Thrasher", "desc_ru":"Футболка черного цвета. Размер М", "desc_en":"Black color T-Shirt. M size", "image":"https://images-na.ssl-images-amazon.com/images/I/819bP9fSqtL._AC_UL1500_.jpg", "price": 20000, "quantity": 25, "categoryId": 1, "subcategoryId": 1},
+    {"id": 2, "title_ru": "Thrasher", "title_en":"Thrasher", "desc_ru":"Футболка белого цвета. Размер М", "desc_en":"White color T-Shirt. M size", "image":"https://media.titus.de/media/image/dc/2b/58/thrasher-t-shirts-flame-white-vorderansicht-0036093_600x600.jpg", "price": 20000, "quantity": 22, "categoryId": 1, "subcategoryId": 1},
+    {"id": 3, "title_ru": "Thrasher", "title_en":"Thrasher", "desc_ru":"Штаны белого цвета. Размер М", "desc_en":"White color Pants. M size", "image":"https://is4.fwrdassets.com/images/p/fw/zs/AMIF-MJ10_V1.jpg", "price": 30500, "quantity": 12, "categoryId": 1, "subcategoryId": 2},
+    {"id": 4, "title_ru": "Finest", "title_en":"Finest", "desc_ru":"Штаны в желтом милитари. Размер XL", "desc_en":"Pants yellow military. XL Size", "image":"https://www.colorskates.com/thumbnails/images/smart/images/products/2018/12/414x500x90-CLP18007-1.jpg", "price": 45000, "quantity": 2, "categoryId": 1, "subcategoryId": 2},
+    {"id": 5, "title_ru": "iPhone 12 Pro Gold", "title_en":"iPhone 12 Pro Gold", "desc_ru":"Apple iPhone 12 Pro 256 GB Gold", "desc_en":"Apple iPhone 12 Pro Gold 256 GB", "image":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-gold-hero?wid=470&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1604021659000", "price": 430000, "quantity": 15, "categoryId": 2, "subcategoryId": 4},
+    {"id": 6, "title_ru": "iPhone 12 Pro Black", "title_en":"iPhone 12 Pro Black", "desc_ru":"Apple iPhone 12 Pro 256 GB Black", "desc_en":"Apple iPhone 12 Pro Black 256 GB", "image":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-graphite-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021660000", "price": 430000, "quantity": 9, "categoryId": 2, "subcategoryId": 4},
+    {"id": 7, "title_ru": "iPhone 12 Pro White", "title_en":"iPhone 12 Pro White", "desc_ru":"Apple iPhone 12 Pro 256 GB White", "desc_en":"Apple iPhone 12 Pro White 256 GB", "image":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-max-silver-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021658000", "price": 430000, "quantity": 13, "categoryId": 2, "subcategoryId": 4}
+  ],
+  "users": [
+    {"name": "User Userov", "username":"user1", "password":"Pass12345", "role":"customer"},
+    {"name": "Admin Adminov", "username":"admin", "password":"Admin12345", "role":"admin"}
+  ]
+}
